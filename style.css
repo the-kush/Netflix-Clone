@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+.main {
+    background-image: url("assets/images/bg.jpeg");
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 80vh;
+    position: relative;
+}
+
+.main .box{
+    height: 80vh;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    max-width: 60vw;
+    height: 62px;
+}
+
+nav img{
+    color: red;
+    width: 118px;
+    position: relative;
+    z-index: 12;
+}
+
+nav button{
+    position: relative;
+    z-index: 12;
+}
+
+.hero{
+    font-family: "Roboto", sans-serif;
+    height: calc(100% - 62px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 22px;
+    padding: 0 30px;
+}
+
+.hero> :first-child{
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.hero> :nth-child(2){
+    font-size: 24px;
+    font-weight: 400;  
+    text-align: center;  
+}
+
+.hero> :nth-child(3){
+    font-size: 20px;
+    font-weight: 400;  
+    text-align: center;  
+}
+
+.seperation{
+    height: 7px;
+    background-color: rgb(61, 58, 58);
+}
+
+.btn{
+    padding: 3px, 8px;
+    font-weight: bold;
+    background-color: white;
+}
+
+.btn-red{
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+
+}
+
+.main input{
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.3);
+}
+.btn-red-sm{
+    background-color: red;
+    color: white;
+}
