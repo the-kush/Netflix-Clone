@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 *{
     padding: 0;
@@ -166,4 +167,70 @@ section.first > div :nth-child(1){
 
 section.first > div :nth-child(2){
     font-size: 24px;
+}
+
+.faq h2 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.faq {
+    background: black;
+    color: white;
+    padding: 30px;
+}
+
+.faqbox:hover {
+    background-color: #414141;
+    color: white;
+}
+
+.faqbox svg {
+    filter: invert(1);
+}
+
+.faqbox {
+    transition: all 1s ease-out;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 24px;
+    max-width: 60vw;
+    margin: 34px auto;
+    cursor: pointer;
+}
+
+footer .questions {
+    padding: 34px 0;
+    font-family: "Roboto", sans-serif;
+
+}
+
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    font-family: "Roboto", sans-serif;
+
+}
+.footer a{
+    color: rgb(161, 155, 155);
+    font-size: 14px;
+}
+
+.footer-items{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 13px;
+}
+.footer-netIn{
+    color: rgba(255, 255, 255, 0.7); 
+    padding-top:10px; 
+    padding-bottom:20px; 
+    font-family: "Roboto", sans-serif;
 }
